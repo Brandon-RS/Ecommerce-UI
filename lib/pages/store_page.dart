@@ -20,7 +20,7 @@ class StorePage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 20),
               child: Row(
                 children: const [
-                  Text('Phnom Penh', style: TextStyle(fontSize: 16)),
+                  Text('Current Location', style: TextStyle(fontSize: 16)),
                   SizedBox(width: 10),
                   Icon(FontAwesomeIcons.mapMarkedAlt, size: 20),
                 ],

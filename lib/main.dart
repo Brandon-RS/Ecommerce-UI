@@ -1,3 +1,4 @@
+import 'package:ecommerce/theme/palette.dart';
 import 'package:flutter/material.dart';
 
 import 'package:ecommerce/routes/routes.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Ecommerce UI',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Palette.mainColor,
       ),
       initialRoute: RootPage.routeName,
       routes: getAplicationRoutes(),
