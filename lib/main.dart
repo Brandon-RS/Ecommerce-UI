@@ -1,7 +1,7 @@
-import 'package:ecommerce/theme/palette.dart';
 import 'package:flutter/material.dart';
 
 import 'package:ecommerce/routes/routes.dart';
+import 'package:ecommerce/theme/palette.dart';
 
 void main() {
   runApp(const MyApp());
